@@ -1,0 +1,35 @@
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    &__title {
+       margin-bottom: 50px;
+  
+       font-weight: 700;
+       font-size: 36px;
+       line-height: 1.17;
+       letter-spacing: 0.03em;
+       text-align: center;
+    }
+    &__list {
+        display: flex;
+        gap: 30px;
+    }
+}
+
+   .clients__link {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    color: #AFB1B8;
+    transition: color var(--cubic-bezier), border-color var(--cubic-bezier);
+   
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+   }
+}

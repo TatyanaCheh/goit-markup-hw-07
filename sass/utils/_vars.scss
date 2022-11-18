@@ -1,0 +1,75 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #FFFFFF;
+    --tetriary-text-color: #757575;
+    --accent-color: #2196F3;
+    --logo-color: #000000;
+    --primary-background-color: #FFFFFF;
+    --secondary-background-color: #2F303A;
+    --tetriary-background-color: #F5F5F5;
+    --hero-background-color: #F5F4FA;
+    --btn-activ-color: #188CE8;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+    --header-border-color: #ECECEC;
+    --cubic-bezier: 250ms cubic-bezier(0.4, 0, 0.2,1);
+    }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+   margin: 0;
+}
+    
+ul {
+   padding-left: 0;
+}
+    
+img {
+   display: block;
+   max-width: 100%;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;
+    border: none;
+    padding: 0px;
+    cursor: pointer;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.svg {
+    fill: currentColor;
+   }
